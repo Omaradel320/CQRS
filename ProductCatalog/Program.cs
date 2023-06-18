@@ -28,7 +28,6 @@
         app.UseSwaggerUI();
     }
 
-    //Calling EndPoints
     app.MapGet("Product/get-all", async (IMediator _mediator) =>
     {
         try
